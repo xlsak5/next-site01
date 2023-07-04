@@ -2,11 +2,11 @@
 import React, { useEffect, useState } from "react";
 import ContTitle from "@/component/title/ContTitle";
 import UnsplashCont from "@/component/unsplash/UnsplashCont";
-import UnsplashSearch from "@/component/unsplash/UnsplashSearch";
 import UnsplashSlider from "@/component/unsplash/UnsplashSlider";
+import UnsplashSearch from "@/component/unsplash/UnsplashSearch";
 import UnsplashTag from "@/component/unsplash/UnsplashTag";
 
-const unsplash = () => {
+const Unsplash = () => {
   const [images, setImages] = useState([]);
 
   // async + await : 동기식
@@ -28,7 +28,7 @@ const unsplash = () => {
       requestOptions
     )
       .then((response) => response.json())
-      .then((result) => setImages(result))
+      .then((result) => setImages(result.results))
       .catch((error) => console.log("error", error));
   }, []);
   return (
@@ -42,4 +42,4 @@ const unsplash = () => {
   );
 };
 
-export default unsplash;
+export default Unsplash;
