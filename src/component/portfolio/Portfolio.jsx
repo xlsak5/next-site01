@@ -3,76 +3,102 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./portfolio.module.css";
 
-const Portfolio = () => {
+const portText = [
+  {
+    portImg: "/assets/images/port/Bust/peep-73.png",
+    iconImg: "/assets/images/port/Bust/peep-1.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+  {
+    portImg: "/assets/images/port/Bust/peep-52.png",
+    iconImg: "/assets/images/port/Bust/peep-90.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+  {
+    portImg: "/assets/images/port/Bust/peep-43.png",
+    iconImg: "/assets/images/port/Bust/peep-91.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+  {
+    portImg: "/assets/images/port/Bust/peep-54.png",
+    iconImg: "/assets/images/port/Bust/peep-94.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+  {
+    portImg: "/assets/images/port/Bust/peep-55.png",
+    iconImg: "/assets/images/port/Bust/peep-95.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+  {
+    portImg: "/assets/images/member/Bust/peep-56.png",
+    iconImg: "/assets/images/port/Bust/peep-96.svg",
+    title: "안교남 포트폴리오",
+    desc: "프론트앤드 개발자 포트폴리오",
+  },
+];
+
+function PortDesc({ portImg, iconImg, title, desc }) {
   return (
-    <div className={styles.port__box}>
-      <h1>PORTFOLIO SITE</h1>
-      <ul>
-        <li>
-          <a href="#">
-            <img
-              src="/assets/images/port/webstandard.png"
-              alt="웹표준 사이트"
-            />
-
-            <div className={styles.port__desc}>
-              <span>웹표준 사이트입니다.</span>
-              <p>
-                6개월 동안 배웠던 것들과 만든 것들을 모아 놓은 사이트입니다.
-              </p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="/assets/images/port/sin1.png"
-              alt="신일전자 클론코딩(HTML,CSS,JAVASCRIPT)"
-            />
-
-            <div className={styles.port__desc}>
-              <span>신일전자 메인 페이지 클론 코딩입니다.</span>
-              <p>HTML, CSS, JAVASCRIPT로 만든 다음 React로 변환을 했습니다.</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="/assets/images/port/reactClone.png" alt="리액트 사이트" />
-
-            <div className={styles.port__desc}>
-              <span>React.js로 제작한 사이트 입니다.</span>
-              <p>HTML, CSS로 제작한 다음 React.JS로 변환을 하였습니다.</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
-
-            <div className={styles.port__desc}>
-              <span>PHP로 제작한 팀프로젝트 입니다.</span>
-              <p>
-                6개월 동안 배웠던 것들과 만든 것들을 모아 놓은 사이트입니다.
-              </p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
-
-            <div className={styles.port__desc}>
-              <span>JAVASCRIPT로 제작한 게임 입니다.</span>
-              <p>
-                6개월 동안 배웠던 것들과 만든 것들을 모아 놓은 사이트입니다.
-              </p>
-            </div>
-          </a>
-        </li>
-      </ul>
+    <div className="port">
+      <figure className="member__header">
+        <img src={portImg} alt={title} />
+      </figure>
+      <div className="port__body">
+        <span>
+          <img src={iconImg} alt={title} />
+        </span>
+        <div>
+          <h4>{title}</h4>
+          <p>{desc}</p>
+        </div>
+      </div>
     </div>
   );
-};
+}
+
+function Portfolio(props) {
+  return (
+    <section id="portSection" className={props.attr}>
+      <h3>포트폴리오</h3>
+      <p>웹디자이너, 웹 퍼블리셔, 프론트앤드 포트폴리오입니다.</p>
+      <div className="port__inner container">
+        <div className="port__btn">
+          <ul>
+            <li>
+              <a href="/" className="active">
+                21기
+              </a>
+            </li>
+            <li>
+              <a href="/">22기</a>
+            </li>
+            <li>
+              <a href="/">23기</a>
+            </li>
+            <li>
+              <a href="/">24기</a>
+            </li>
+          </ul>
+        </div>
+        <div className="port__cont">
+          {portText.map((text, index) => (
+            <PortDesc
+              key={index}
+              portImg={text.portImg}
+              iconImg={text.iconImg}
+              title={text.title}
+              desc={text.desc}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export default Portfolio;
