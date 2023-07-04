@@ -2158,3 +2158,16 @@ body, button, input, select, table, textarea {
   width: 100%;
 }
 
+
+#portSection {
+  text-align: center;
+}
+#portSection h3 {
+ font-size: 50px; 
+}
+#portSection p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 60px;
+  font-family: 'NanumSquareNeo';
+}
