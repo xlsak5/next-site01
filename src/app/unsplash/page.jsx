@@ -28,7 +28,7 @@ const Unsplash = () => {
       requestOptions
     )
       .then((response) => response.json())
-      .then((result) => setImages(result.results))
+      .then((result) => setImages(result))
       .catch((error) => console.log("error", error));
   }, []);
   return (

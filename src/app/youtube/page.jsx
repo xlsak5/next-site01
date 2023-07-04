@@ -1,11 +1,11 @@
 "use client";
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 import ContTitle from "@/component/title/ContTitle";
 import YoutubeTag from "@/component/youtube/YoutubeTag";
 import YoutubeSearch from "@/component/youtube/YoutubeSearch";
 import YoutubeCont from "@/component/youtube/YoutubeCont";
 
-const page = () => {
+const Page = () => {
   const [youtubes, setYoutubes] = useState([]);
 
   // async + await : 동기식
@@ -29,12 +29,12 @@ const page = () => {
 
   return (
     <>
-        <ContTitle title="youtube" />
-        <YoutubeSearch onSearch={search} />
-        <YoutubeTag onSearch={search} />
-        <YoutubeCont youtubes={youtubes} />
+      <ContTitle title="youtube" />
+      <YoutubeSearch onSearch={search} />
+      <YoutubeTag onSearch={search} />
+      <YoutubeCont youtubes={youtubes} />
     </>
   );
-}
+};
 
-export default page
+export default Page;

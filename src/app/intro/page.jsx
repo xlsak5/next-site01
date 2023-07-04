@@ -4,7 +4,7 @@ import Intro from "@/component/intro/Intro";
 import IntroSkill from "@/component/intro/IntroSkill";
 import IntroOpertate from "@/component/intro/IntroOpertate";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <Intro />
@@ -14,4 +14,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
