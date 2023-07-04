@@ -17,7 +17,7 @@ const Slider = () => {
               <p>
                 재능은! 노력 끝에서 발견된다.
                 <br />
-                어떤 일이라도 노력하고 즐기면 그 어떤것도 뭐라뭐라뭐라
+                어떤 일이라도 노력하고 즐기면 그 어떤것도
               </p>
               <Link href="/" className="more button-red">
                 더 알아보기
