@@ -1,0 +1,224 @@
+/* intro */
+.me__box h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    color: #0077ff;
+    font-family: "NanumSquareNeo";
+    font-weight: bold;
+  }
+  .me__box .me__introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+  .me__box .me__introduce .introduce__box {
+    display: flex;
+    justify-content: center;
+  }
+  .me__box .me__introduce .introduce__box img {
+    width: 200px;
+    background-color: #fae29e;
+    border-radius: 50%;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li {
+    margin-bottom: 25px;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li p {
+    color: #0077ff;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "NanumSquareNeo";
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li span {
+    font-size: 18px;
+    font-family: "NanumSquareNeo";
+  }
+
+  /* intro__skill */
+  .intro__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .intro__title {
+    width: 33%;
+  }
+  .intro__title span {
+    background-color: #ff3344;
+    font-size: 14px;
+    padding: 4px 30px 2px;
+    color: #fff;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .intro__title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  .intro__title p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  
+  .intro__desc {
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .intro__desc > div {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+  .intro__desc > div h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .intro__desc > div:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .intro__desc > div:nth-child(4) {
+    margin-bottom: 0;
+  }
+  
+  .me__box {
+    padding-top: 5%;
+  }
+  .me__box h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    color: #0077ff;
+    font-family: "NanumSquareNeo";
+    font-weight: bold;
+  }
+  .me__box .me__introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .me__box .me__introduce .introduce__box {
+    display: flex;
+    justify-content: center;
+  }
+  .me__box .me__introduce .introduce__box img {
+    width: 200px;
+    background-color: #fae29e;
+    border-radius: 50%;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li {
+    margin-bottom: 25px;
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li p {
+    color: #0077ff;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "NanumSquareNeo";
+  }
+  .me__box .me__introduce .introduce__box .introduce__desc ul li span {
+    font-size: 18px;
+    font-family: "NanumSquareNeo";
+  }
+  
+  .introSkill {
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+  
+  .me__kind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+  }
+  .me__kind h1 {
+    font-size: 24px;
+    font-family: "NanumBarunGothic";
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .me__kind ol.kind__ol li span {
+    text-align: left;
+    font-size: 22px;
+    font-family: "NexonLv2Gothic";
+    font-weight: 400;
+  }
+  .me__kind ol.kind__ol li:nth-child(1):before {
+    content: "1.";
+    font-size: 22px;
+  }
+  .me__kind ol.kind__ol li:nth-child(2):before {
+    content: "2.";
+    font-size: 22px;
+  }
+  .me__kind ol.kind__ol li:nth-child(3):before {
+    content: "3.";
+    font-size: 22px;
+  }
+
+
+  /* meOperate */
+  .me__kind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .me__kind h1 {
+    font-size: 24px;
+    font-family: "NanumBarunGothic";
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .me__kind ol.kind__ol li span {
+    text-align: left;
+    font-size: 22px;
+    font-family: "NexonLv2Gothic";
+    font-weight: 400;
+  }
+  .me__kind ol.kind__ol li:nth-child(1):before {
+    content: "1.";
+    font-size: 22px;
+  }
+  .me__kind ol.kind__ol li:nth-child(2):before {
+    content: "2.";
+    font-size: 22px;
+  }
+  .me__kind ol.kind__ol li:nth-child(3):before {
+    content: "3.";
+    font-size: 22px;
+  }

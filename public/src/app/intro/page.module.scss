@@ -1,0 +1,53 @@
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .intro__title {
+    width: 33%;
+  }
+  
+  .intro__title span {
+    background-color: #f34;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 4px 30px 2px;
+    text-transform: uppercase;
+  }
+  
+  .intro__title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .intro__title p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  .intro__desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 66%;
+  }
+  
+  .intro__desc > div {
+    margin-bottom: 40px;
+    width: 48%;
+  }
+  
+  .intro__desc > div h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .intro__desc > div:nth-child(3), .intro__desc > div:nth-child(4) {
+    margin-bottom: 0;
+  }

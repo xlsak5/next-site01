@@ -1,0 +1,39 @@
+.unsplash__wrap {
+    overflow: hidden;
+  }
+  
+  .unsplash__inner {
+    height: 570px;
+  }
+  
+  .unsplash__inner h3 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .unsplash__inner p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 60px;
+  }
+  
+  .unsplash__inner a {
+    border-radius: 50px;
+  }
+  
+  .unsplash__inner .unsplash__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: absolute;
+  }
+  
+  .unsplash__inner .unsplash__item > div {
+    margin-right: 20px;
+    width: 400px;
+  }
+  
+  .unsplash__inner .unsplash__item > div img {
+    border-radius: 20px;
+    width: 100%;
+  }

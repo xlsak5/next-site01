@@ -1,0 +1,114 @@
+.youtube__wrap {
+  overflow: hidden;
+}
+
+.youtube__inner {
+  height: 570px;
+}
+.youtube__inner .youtube__text h3 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.youtube__inner .youtube__text p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.youtube__inner .youtube__text a {
+  border-radius: 50px;
+}
+.youtube__inner .youtube__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: absolute;
+}
+.youtube__inner .youtube__item > div {
+  width: 400px;
+  margin-right: 20px;
+}
+.youtube__inner .youtube__item > div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.youtube__slider {
+  display: none;
+}
+
+.youtube__search {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.youtube__search input {
+  border-radius: 50px;
+  border: 1px solid #E8ECF2;
+  font-size: 16px;
+  padding: 10px 20px;
+  min-width: 200px;
+  margin-right: 10px;
+}
+.youtube__search button {
+  /* @include button (#F7100D, #fff); */
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #F7100D;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+}
+.youtube__search button:hover {
+  background-color: #490907;
+}
+
+/* youtube__tag */
+.youtube__tag div {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.youtube__tag div button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  margin-right: 15px;
+  background-color: #e7e2e2;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.youtube__tag div button:hover {
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+/* youtube__cont */
+.youtube__cont ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.youtube__cont ul li {
+  width: 24%;
+  margin-bottom: 4%;
+  margin-right: 1%;
+}
+.youtube__cont ul li:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.youtube__cont ul li img {
+  text-align: center;
+}
+.youtube__cont ul li span {
+  display: block;
+  margin: 4px 0;
+  font-weight: bold;
+}

@@ -1,0 +1,107 @@
+/* unsplash__wrap */
+.unsplash__wrap {
+  overflow: hidden;
+}
+
+  /* unsplash__inner */
+  .unsplash__inner {
+    height: 560px;
+  }
+  .unsplash__inner .unsplash__text {}
+  .unsplash__inner .unsplash__text h3 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .unsplash__inner .unsplash__text p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .unsplash__inner .unsplash__text a {
+    border-radius: 50px;
+  }
+
+  /* unsplash__item */
+  .unsplash__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: absolute;
+
+  }
+  .unsplash__item > div {
+    width: 400px;
+    margin-right: 20px;
+  }
+  .unsplash__item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+    
+  
+  
+  /* unsplash__cont */
+  .unsplash__cont {}
+  .unsplash__cont ul {
+    column-count: 4;
+    column-gap: 20px;
+  }
+  .unsplash__cont li {
+    margin-bottom: 20px;
+  }
+  
+  /* unsplash__search */
+  .unsplash__search {
+    margin-bottom: 50px;
+    text-align: center;
+  
+  }
+  .unsplash__search input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    min-width: 300px;
+    margin-right: 10px;
+    font-family: "GmarketSans";
+  }
+
+  .unsplash__search button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #f7100d;
+    color: #fff;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    font-family: "GmarketSans";
+  }
+  .unsplash__search button:hover {
+      background-color: darken(#8f1c1a;, 20%);
+  }
+
+  
+  /* unsplash__tag */
+  .unsplash__tag {}
+  .unsplash__tag div {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+  }
+  .unsplash__tag button {
+    border: 1px solid #f7100d;
+    padding: 5px 20px;
+    margin: 0 10px;
+    color: #f7100d;
+    background-color: #fff;
+    cursor: pointer;
+
+  }
+  .unsplash__tag button:hover {
+    background-color: #f7100d;
+    color: #fff;
+  }

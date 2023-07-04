@@ -1,0 +1,127 @@
+.movie__wrap {
+  overflow: hidden;
+}
+.movie__inner {
+  height: 1000px;
+}
+.movie__text h3 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.movie__text p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.movie__text  a {
+  border-radius: 50px;
+}
+.movie__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: absolute;
+}
+.movie__item > div {
+  width: 400px;
+  margin-right: 20px;
+}
+.movie__item > div img {
+  width: 100%;
+  border-radius: 20px;
+}
+  
+/* movie__cont */
+.movie__cont ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "GmarketSans";
+}
+.movie__cont ul li {
+  width: 24%;
+  position: relative;
+  margin-bottom: 2%;
+}
+.movie__cont ul li .title {
+  font-size: 20px;
+  padding: 3px 0;
+  display: inline-block;
+}
+.movie__cont ul li .title:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.movie__cont ul li .star {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.movie__search {
+  margin: 50px 0;
+  text-align: center;
+}
+.movie__search input {
+  border: 1px solid #e8ecf2;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  min-width: 300px;
+  margin-right: 10px;
+  font-family: "GmarketSans";
+}
+
+.search__btn {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #645d5d;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+  font-family: "GmarketSans";
+}
+.search__btn:hover {
+  background-color: black;
+}
+
+.movie__tag ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.movie__tag ul li a {
+  display: inline-block;
+  border: 1px solid #4857ec;
+  padding: 5px 20px;
+  margin: 0 10px;
+  color: #4857ec;
+  cursor: pointer;
+}
+.movie__tag ul li a:hover {
+  background-color: #4857ec;
+  color: #fff;
+}
+.movie__tag ul li.active a {
+  background-color: #4857ec;
+  color: #fff;
+}
+
+.movie__slider .swiper {
+  padding: 60px 0;
+}
+.movie__slider .swiper-pagination {
+  bottom: 1vw;
+  cursor: pointer;
+}

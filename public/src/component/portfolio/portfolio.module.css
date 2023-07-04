@@ -1,0 +1,114 @@
+.port__inner .port__btn > ul {
+    display: flex;
+    justify-content: center;
+  }
+  .port__inner .port__btn > ul > li {
+    margin: 0 0 45px 0;
+  }
+  .port__inner .port__btn > ul > li > a {
+    display: inline-block;
+    width: 126px;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #eaf0ff;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  .port__inner .port__btn > ul > li > a.active {
+    background-color: #d9e4ff;
+  }
+  .port__inner .port__btn > ul > li:hover a {
+    background-color: #d9e4ff;
+  }
+  .port__inner .port__cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .port__inner .port__cont .port {
+    width: 32.3333%;
+    margin-bottom: 50px;
+  }
+  .port__inner .port__cont .port > figure {
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  .port__inner .port__cont .port .port__body {
+    display: flex;
+    margin-top: 10px;
+  }
+  .port__inner .port__cont .port .port__body > span > img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #f1e8d0;
+    border-radius: 50%;
+  }
+  .port__inner .port__cont .port .port__body > div {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .port__inner .port__cont .port .port__body > div > h4 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .port__inner .port__cont .port .port__body > div > p {
+    color: #979595;
+  }
+  
+  .port__box {
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+  .port__box h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: "NanumSquareNeo";
+    font-weight: bold;
+  }
+  .port__box ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .port__box ul li {
+    width: 48%;
+    text-align: center;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .port__box ul li a {
+    display: inline-block;
+    width: 100%;
+  }
+  .port__box ul li a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .port__box ul li a img {
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .port__box ul li a .port__desc {
+    text-align: left;
+    font-family: "NanumSquareNeo";
+    padding-top: 10px;
+  }
+  .port__box ul li a .port__desc span {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .port__box ul li a .port__desc p {
+    margin-top: 10px;
+    font-size: 18px;
+  }

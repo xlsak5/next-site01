@@ -1,0 +1,39 @@
+.youtube__wrap {
+    overflow: hidden;
+  }
+  
+  .youtube__inner {
+    height: 570px;
+  }
+  
+  .youtube__inner .youtube__text h3 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .youtube__inner .youtube__text p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 45px;
+  }
+  
+  .youtube__inner .youtube__text a {
+    border-radius: 50px;
+  }
+  
+  .youtube__inner .youtube__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    position: absolute;
+  }
+  
+  .youtube__inner .youtube__item > div {
+    margin-right: 20px;
+    width: 400px;
+  }
+  
+  .youtube__inner .youtube__item > div img {
+    border-radius: 10px;
+    width: 100%;
+  }
