@@ -48,7 +48,7 @@ const Portfolio = () => {
         </li>
         <li>
           <a href="http://xlsak3.dothome.co.kr/">
-            <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
+            <img src="/assets/images/port/hel.png" alt="만든 사이트1" />
 
             <div className={styles.port__desc}>
               <span>PHP로 제작한 팀프로젝트 입니다.</span>
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </li>
         <li>
           <a href="https://tetris-portfolio-d4291.web.app/">
-            <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
+            <img src="/assets/images/port/tetris.png" alt="만든 사이트1" />
 
             <div className={styles.port__desc}>
               <span>JAVASCRIPT로 제작한 게임 입니다.</span>
