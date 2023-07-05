@@ -9,7 +9,7 @@ const Portfolio = () => {
       <h1>PORTFOLIO SITE</h1>
       <ul>
         <li>
-          <a href="#">
+          <a href="https://xlsak5.github.io/testAnGyonam/">
             <img
               src="/assets/images/port/webstandard.png"
               alt="웹표준 사이트"
@@ -24,7 +24,7 @@ const Portfolio = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://cloneeee.netlify.app/">
             <img
               src="/assets/images/port/sin1.png"
               alt="신일전자 클론코딩(HTML,CSS,JAVASCRIPT)"
@@ -37,7 +37,7 @@ const Portfolio = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://reacttt1.netlify.app/">
             <img src="/assets/images/port/reactClone.png" alt="리액트 사이트" />
 
             <div className={styles.port__desc}>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="http://xlsak3.dothome.co.kr/">
             <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
 
             <div className={styles.port__desc}>
@@ -59,7 +59,7 @@ const Portfolio = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://tetris-portfolio-d4291.web.app/">
             <img src="/assets/images/port/webstandard.png" alt="만든 사이트1" />
 
             <div className={styles.port__desc}>
